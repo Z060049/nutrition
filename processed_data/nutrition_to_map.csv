@@ -1,0 +1,193 @@
+Product Name,Temperature L1,Temperature L2,Size,Ounce,Category
+Jasmine Green Tea (Bo Ya) Latte,Hot,Hot,Small,12 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Hot,Hot,Regular,16 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Hot,Hot,Large,22 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,Regular,Small,12 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,Regular,Regular,16 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,Regular,Large,22 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,Less,Small,12 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,Less,Regular,16 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,Less,Large,22 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,No,Small,12 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,No,Regular,16 oz,Tea Latte
+Jasmine Green Tea (Bo Ya) Latte,Ice,No,Large,22 oz,Tea Latte
+Peach Oolong Tea Latte,Hot,Hot,Small,12 oz,Tea Latte
+Peach Oolong Tea Latte,Hot,Hot,Regular,16 oz,Tea Latte
+Peach Oolong Tea Latte,Hot,Hot,Large,22 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,Regular,Small,12 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,Regular,Regular,16 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,Regular,Large,22 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,Less,Small,12 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,Less,Regular,16 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,Less,Large,22 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,No,Small,12 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,No,Regular,16 oz,Tea Latte
+Peach Oolong Tea Latte,Ice,No,Large,22 oz,Tea Latte
+Roasted Black Tea Latte,Hot,Hot,Small,12 oz,Tea Latte
+Roasted Black Tea Latte,Hot,Hot,Regular,16 oz,Tea Latte
+Roasted Black Tea Latte,Hot,Hot,Large,22 oz,Tea Latte
+Roasted Black Tea Latte,Ice,Regular,Small,12 oz,Tea Latte
+Roasted Black Tea Latte,Ice,Regular,Regular,16 oz,Tea Latte
+Roasted Black Tea Latte,Ice,Regular,Large,22 oz,Tea Latte
+Roasted Black Tea Latte,Ice,Less,Small,12 oz,Tea Latte
+Roasted Black Tea Latte,Ice,Less,Regular,16 oz,Tea Latte
+Roasted Black Tea Latte,Ice,Less,Large,22 oz,Tea Latte
+Roasted Black Tea Latte,Ice,No,Small,12 oz,Tea Latte
+Roasted Black Tea Latte,Ice,No,Regular,16 oz,Tea Latte
+Roasted Black Tea Latte,Ice,No,Large,22 oz,Tea Latte
+Ceylon Black Tea Latte,Hot,Hot,Small,12 oz,Tea Latte
+Ceylon Black Tea Latte,Hot,Hot,Regular,16 oz,Tea Latte
+Ceylon Black Tea Latte,Hot,Hot,Large,22 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,Regular,Small,12 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,Regular,Regular,16 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,Regular,Large,22 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,Less,Small,12 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,Less,Regular,16 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,Less,Large,22 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,No,Small,12 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,No,Regular,16 oz,Tea Latte
+Ceylon Black Tea Latte,Ice,No,Large,22 oz,Tea Latte
+Roasted Oolong Tea Latte,Hot,Hot,Small,12 oz,Tea Latte
+Roasted Oolong Tea Latte,Hot,Hot,Regular,16 oz,Tea Latte
+Roasted Oolong Tea Latte,Hot,Hot,Large,22 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,Regular,Small,12 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,Regular,Regular,16 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,Regular,Large,22 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,Less,Small,12 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,Less,Regular,16 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,Less,Large,22 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,No,Small,12 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,No,Regular,16 oz,Tea Latte
+Roasted Oolong Tea Latte,Ice,No,Large,22 oz,Tea Latte
+Jasmine Green Pure Tea,Hot,Hot,Small,12 oz,Pure tea
+Jasmine Green Pure Tea,Hot,Hot,Regular,16 oz,Pure tea
+Jasmine Green Pure Tea,Hot,Hot,Large,22 oz,Pure tea
+Jasmine Green Pure Tea,Ice,Regular,Small,12 oz,Pure tea
+Jasmine Green Pure Tea,Ice,Regular,Regular,16 oz,Pure tea
+Jasmine Green Pure Tea,Ice,Regular,Large,22 oz,Pure tea
+Jasmine Green Pure Tea,Ice,Less,Small,12 oz,Pure tea
+Jasmine Green Pure Tea,Ice,Less,Regular,16 oz,Pure tea
+Jasmine Green Pure Tea,Ice,Less,Large,22 oz,Pure tea
+Jasmine Green Pure Tea,Ice,No,Small,12 oz,Pure tea
+Jasmine Green Pure Tea,Ice,No,Regular,16 oz,Pure tea
+Jasmine Green Pure Tea,Ice,No,Large,22 oz,Pure tea
+Peach Oolong Pure Tea,Hot,Hot,Small,12 oz,Pure tea
+Peach Oolong Pure Tea,Hot,Hot,Regular,16 oz,Pure tea
+Peach Oolong Pure Tea,Hot,Hot,Large,22 oz,Pure tea
+Peach Oolong Pure Tea,Ice,Regular,Small,12 oz,Pure tea
+Peach Oolong Pure Tea,Ice,Regular,Regular,16 oz,Pure tea
+Peach Oolong Pure Tea,Ice,Regular,Large,22 oz,Pure tea
+Peach Oolong Pure Tea,Ice,Less,Small,12 oz,Pure tea
+Peach Oolong Pure Tea,Ice,Less,Regular,16 oz,Pure tea
+Peach Oolong Pure Tea,Ice,Less,Large,22 oz,Pure tea
+Peach Oolong Pure Tea,Ice,No,Small,12 oz,Pure tea
+Peach Oolong Pure Tea,Ice,No,Regular,16 oz,Pure tea
+Peach Oolong Pure Tea,Ice,No,Large,22 oz,Pure tea
+Roasted Black Pure Tea,Hot,Hot,Small,12 oz,Pure tea
+Roasted Black Pure Tea,Hot,Hot,Regular,16 oz,Pure tea
+Roasted Black Pure Tea,Hot,Hot,Large,22 oz,Pure tea
+Roasted Black Pure Tea,Ice,Regular,Small,12 oz,Pure tea
+Roasted Black Pure Tea,Ice,Regular,Regular,16 oz,Pure tea
+Roasted Black Pure Tea,Ice,Regular,Large,22 oz,Pure tea
+Roasted Black Pure Tea,Ice,Less,Small,12 oz,Pure tea
+Roasted Black Pure Tea,Ice,Less,Regular,16 oz,Pure tea
+Roasted Black Pure Tea,Ice,Less,Large,22 oz,Pure tea
+Roasted Black Pure Tea,Ice,No,Small,12 oz,Pure tea
+Roasted Black Pure Tea,Ice,No,Regular,16 oz,Pure tea
+Roasted Black Pure Tea,Ice,No,Large,22 oz,Pure tea
+Ceylon Black Pure Tea,Hot,Hot,Small,12 oz,Pure tea
+Ceylon Black Pure Tea,Hot,Hot,Regular,16 oz,Pure tea
+Ceylon Black Pure Tea,Hot,Hot,Large,22 oz,Pure tea
+Ceylon Black Pure Tea,Ice,Regular,Small,12 oz,Pure tea
+Ceylon Black Pure Tea,Ice,Regular,Regular,16 oz,Pure tea
+Ceylon Black Pure Tea,Ice,Regular,Large,22 oz,Pure tea
+Ceylon Black Pure Tea,Ice,Less,Small,12 oz,Pure tea
+Ceylon Black Pure Tea,Ice,Less,Regular,16 oz,Pure tea
+Ceylon Black Pure Tea,Ice,Less,Large,22 oz,Pure tea
+Ceylon Black Pure Tea,Ice,No,Small,12 oz,Pure tea
+Ceylon Black Pure Tea,Ice,No,Regular,16 oz,Pure tea
+Ceylon Black Pure Tea,Ice,No,Large,22 oz,Pure tea
+Roasted Oolong Tea,Hot,Hot,Small,12 oz,Pure tea
+Roasted Oolong Tea,Hot,Hot,Regular,16 oz,Pure tea
+Roasted Oolong Tea,Hot,Hot,Large,22 oz,Pure tea
+Roasted Oolong Tea,Ice,Regular,Small,12 oz,Pure tea
+Roasted Oolong Tea,Ice,Regular,Regular,16 oz,Pure tea
+Roasted Oolong Tea,Ice,Regular,Large,22 oz,Pure tea
+Roasted Oolong Tea,Ice,Less,Small,12 oz,Pure tea
+Roasted Oolong Tea,Ice,Less,Regular,16 oz,Pure tea
+Roasted Oolong Tea,Ice,Less,Large,22 oz,Pure tea
+Roasted Oolong Tea,Ice,No,Small,12 oz,Pure tea
+Roasted Oolong Tea,Ice,No,Regular,16 oz,Pure tea
+Roasted Oolong Tea,Ice,No,Large,22 oz,Pure tea
+Jasmine Green Lemon Tea,Hot,Hot,Small,12 oz,Other teas
+Jasmine Green Lemon Tea,Hot,Hot,Regular,16 oz,Other teas
+Jasmine Green Lemon Tea,Hot,Hot,Large,22 oz,Other teas
+Jasmine Green Lemon Tea,Ice,Regular,Small,12 oz,Other teas
+Jasmine Green Lemon Tea,Ice,Regular,Regular,16 oz,Other teas
+Jasmine Green Lemon Tea,Ice,Regular,Large,22 oz,Other teas
+Jasmine Green Lemon Tea,Ice,Less,Small,12 oz,Other teas
+Jasmine Green Lemon Tea,Ice,Less,Regular,16 oz,Other teas
+Jasmine Green Lemon Tea,Ice,Less,Large,22 oz,Other teas
+Jasmine Green Lemon Tea,Ice,No,Small,12 oz,Other teas
+Jasmine Green Lemon Tea,Ice,No,Regular,16 oz,Other teas
+Jasmine Green Lemon Tea,Ice,No,Large,22 oz,Other teas
+Peach Oolong LemonTea,Hot,Hot,Small,12 oz,Other teas
+Peach Oolong LemonTea,Hot,Hot,Regular,16 oz,Other teas
+Peach Oolong LemonTea,Hot,Hot,Large,22 oz,Other teas
+Peach Oolong LemonTea,Ice,Regular,Small,12 oz,Other teas
+Peach Oolong LemonTea,Ice,Regular,Regular,16 oz,Other teas
+Peach Oolong LemonTea,Ice,Regular,Large,22 oz,Other teas
+Peach Oolong LemonTea,Ice,Less,Small,12 oz,Other teas
+Peach Oolong LemonTea,Ice,Less,Regular,16 oz,Other teas
+Peach Oolong LemonTea,Ice,Less,Large,22 oz,Other teas
+Peach Oolong LemonTea,Ice,No,Small,12 oz,Other teas
+Peach Oolong LemonTea,Ice,No,Regular,16 oz,Other teas
+Peach Oolong LemonTea,Ice,No,Large,22 oz,Other teas
+Roasted Black Lemon Tea,Hot,Hot,Small,12 oz,Other teas
+Roasted Black Lemon Tea,Hot,Hot,Regular,16 oz,Other teas
+Roasted Black Lemon Tea,Hot,Hot,Large,22 oz,Other teas
+Roasted Black Lemon Tea,Ice,Regular,Small,12 oz,Other teas
+Roasted Black Lemon Tea,Ice,Regular,Regular,16 oz,Other teas
+Roasted Black Lemon Tea,Ice,Regular,Large,22 oz,Other teas
+Roasted Black Lemon Tea,Ice,Less,Small,12 oz,Other teas
+Roasted Black Lemon Tea,Ice,Less,Regular,16 oz,Other teas
+Roasted Black Lemon Tea,Ice,Less,Large,22 oz,Other teas
+Roasted Black Lemon Tea,Ice,No,Small,12 oz,Other teas
+Roasted Black Lemon Tea,Ice,No,Regular,16 oz,Other teas
+Roasted Black Lemon Tea,Ice,No,Large,22 oz,Other teas
+Caramel Tea Frappe,Hot,Hot,Small,12 oz,Other teas
+Caramel Tea Frappe,Hot,Hot,Regular,16 oz,Other teas
+Caramel Tea Frappe,Hot,Hot,Large,22 oz,Other teas
+Caramel Tea Frappe,Ice,Regular,Small,12 oz,Other teas
+Caramel Tea Frappe,Ice,Regular,Regular,16 oz,Other teas
+Caramel Tea Frappe,Ice,Regular,Large,22 oz,Other teas
+Caramel Tea Frappe,Ice,Less,Small,12 oz,Other teas
+Caramel Tea Frappe,Ice,Less,Regular,16 oz,Other teas
+Caramel Tea Frappe,Ice,Less,Large,22 oz,Other teas
+Caramel Tea Frappe,Ice,No,Small,12 oz,Other teas
+Caramel Tea Frappe,Ice,No,Regular,16 oz,Other teas
+Caramel Tea Frappe,Ice,No,Large,22 oz,Other teas
+Roasted Oolong Lemon Tea,Hot,Hot,Small,12 oz,Other teas
+Roasted Oolong Lemon Tea,Hot,Hot,Regular,16 oz,Other teas
+Roasted Oolong Lemon Tea,Hot,Hot,Large,22 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,Regular,Small,12 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,Regular,Regular,16 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,Regular,Large,22 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,Less,Small,12 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,Less,Regular,16 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,Less,Large,22 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,No,Small,12 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,No,Regular,16 oz,Other teas
+Roasted Oolong Lemon Tea,Ice,No,Large,22 oz,Other teas
+Ceylon Black Lemon Tea,Hot,Hot,Small,12 oz,Other teas
+Ceylon Black Lemon Tea,Hot,Hot,Regular,16 oz,Other teas
+Ceylon Black Lemon Tea,Hot,Hot,Large,22 oz,Other teas
+Ceylon Black Lemon Tea,Ice,Regular,Small,12 oz,Other teas
+Ceylon Black Lemon Tea,Ice,Regular,Regular,16 oz,Other teas
+Ceylon Black Lemon Tea,Ice,Regular,Large,22 oz,Other teas
+Ceylon Black Lemon Tea,Ice,Less,Small,12 oz,Other teas
+Ceylon Black Lemon Tea,Ice,Less,Regular,16 oz,Other teas
+Ceylon Black Lemon Tea,Ice,Less,Large,22 oz,Other teas
+Ceylon Black Lemon Tea,Ice,No,Small,12 oz,Other teas
+Ceylon Black Lemon Tea,Ice,No,Regular,16 oz,Other teas
+Ceylon Black Lemon Tea,Ice,No,Large,22 oz,Other teas

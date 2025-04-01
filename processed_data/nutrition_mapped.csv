@@ -1,0 +1,58 @@
+beverage_type,product_name,ounce,size,category
+16 oz Jasmine Brewed Hot Tea,Jasmine Green Pure Tea,16 oz,Regular,Pure tea
+16 oz Peach Brewed Hot Tea,unmapped,unmapped,unmapped,unmapped
+16 oz Ceylon Extracted Hot Tea,Ceylon Black Pure Tea,16 oz,Regular,Pure tea
+16 oz Roasted Oolong Extracted Hot Tea,Roasted Oolong Tea,16 oz,Regular,Pure tea
+16 oz Roasted Black Extracted Hot Tea,Roasted Black Pure Tea,16 oz,Regular,Pure tea
+22 oz Jasmine Brewed Hot Tea,Jasmine Green Pure Tea,22 oz,Large,Pure tea
+22 oz Peach Brewed Hot Tea,unmapped,unmapped,unmapped,unmapped
+22 oz Ceylon Extracted Hot Tea,Ceylon Black Pure Tea,22 oz,Large,Pure tea
+22 oz Roasted Oolong Extracted Hot Tea,Roasted Oolong Tea,22 oz,Large,Pure tea
+22 oz Roasted Black Extracted Hot Tea,Roasted Black Pure Tea,22 oz,Large,Pure tea
+16 oz Jasmine Brewed Iced Tea,Jasmine Green Pure Tea,16 oz,Regular,Pure tea
+16 oz Peach Brewed Iced Tea,unmapped,unmapped,unmapped,unmapped
+16 oz Ceylon Extracted Iced Tea,Ceylon Black Pure Tea,16 oz,Regular,Pure tea
+16 oz Roasted Oolong Extracted Iced Tea,Roasted Oolong Tea,16 oz,Regular,Pure tea
+16 oz Roasted Black Extracted Iced Tea,Roasted Black Pure Tea,16 oz,Regular,Pure tea
+22 oz Jasmine Brewed Iced Tea,Jasmine Green Pure Tea,22 oz,Large,Pure tea
+22 oz Peach Brewed Iced Tea,unmapped,unmapped,unmapped,unmapped
+22 oz Ceylon Extracted Iced Tea,Ceylon Black Pure Tea,22 oz,Large,Pure tea
+22 oz Roasted Oolong Extracted Iced Tea,Roasted Oolong Tea,22 oz,Large,Pure tea
+22 oz Roasted Black Extracted Iced Tea,Roasted Black Pure Tea,22 oz,Large,Pure tea
+12 oz Hot Tea Latte (extracted Roasted Black),Roasted Black Tea Latte,12 oz,Small,Tea Latte
+16 oz Hot Tea Latte (extracted Roasted Black),Roasted Black Tea Latte,16 oz,Regular,Tea Latte
+22 oz Hot Tea Latte (extracted Roasted Black),Roasted Black Tea Latte,22 oz,Large,Tea Latte
+12 oz Hot Tea Latte (extracted Roasted Oolong),Roasted Oolong Tea Latte,12 oz,Small,Tea Latte
+16 oz Hot Tea Latte (extracted Roasted Oolong),Roasted Oolong Tea Latte,16 oz,Regular,Tea Latte
+22 oz Hot Tea Latte (extracted Roasted Oolong),Roasted Oolong Tea Latte,22 oz,Large,Tea Latte
+12 oz Hot Tea Latte (extracted Ceylon),Ceylon Black Tea Latte,12 oz,Small,Tea Latte
+16 oz Hot Tea Latte (extracted Ceylon),Ceylon Black Tea Latte,16 oz,Regular,Tea Latte
+22 oz Hot Tea Latte (extracted Ceylon),Ceylon Black Tea Latte,22 oz,Large,Tea Latte
+12 oz Hot Tea Latte (Brewed Jasmine),Jasmine Green Tea (Bo Ya) Latte,12 oz,Small,Tea Latte
+16 oz Hot Tea Latte (Brewed Jasmine),Jasmine Green Tea (Bo Ya) Latte,16 oz,Regular,Tea Latte
+22 oz Hot Tea Latte (Brewed Jasmine),Jasmine Green Tea (Bo Ya) Latte,22 oz,Large,Tea Latte
+12 oz Hot Tea Latte (Brewed Peach),unmapped,unmapped,unmapped,unmapped
+16 oz Hot Tea Latte (Brewed Peach),unmapped,unmapped,unmapped,unmapped
+22 oz Hot Tea Latte (Brewed Peach),unmapped,unmapped,unmapped,unmapped
+12 oz Iced Tea Latte (extracted Roasted Black),Roasted Black Tea Latte,12 oz,Small,Tea Latte
+16 oz Iced Tea Latte (extracted Roasted Black),Roasted Black Tea Latte,16 oz,Regular,Tea Latte
+22 oz Iced Tea Latte (extracted Roasted Black),Roasted Black Tea Latte,22 oz,Large,Tea Latte
+12 oz Iced Tea Latte (extracted Roasted Oolong),Roasted Oolong Tea Latte,12 oz,Small,Tea Latte
+16 oz Iced Tea Latte (extracted Roasted Oolong),Roasted Oolong Tea Latte,16 oz,Regular,Tea Latte
+22 oz Iced Tea Latte (extracted Roasted Oolong),Roasted Oolong Tea Latte,22 oz,Large,Tea Latte
+12 oz Iced Tea Latte (extracted Ceylon),Ceylon Black Tea Latte,12 oz,Small,Tea Latte
+16 oz Iced Tea Latte (extracted Ceylon),Ceylon Black Tea Latte,16 oz,Regular,Tea Latte
+22 oz Iced Tea Latte (extracted Ceylon),Ceylon Black Tea Latte,22 oz,Large,Tea Latte
+12 oz Iced Tea Latte (brewed Jasmine),Jasmine Green Tea (Bo Ya) Latte,12 oz,Small,Tea Latte
+16 oz Iced Tea Latte (brewed Jasmine),Jasmine Green Tea (Bo Ya) Latte,16 oz,Regular,Tea Latte
+22 oz Iced Tea Latte (brewed Jasmine),Jasmine Green Tea (Bo Ya) Latte,22 oz,Large,Tea Latte
+12 oz Iced Tea Latte (brewed Peach Oolong),Peach Oolong Tea Latte,12 oz,Small,Tea Latte
+16 oz Iced Tea Latte (brewed Peach Oolong),Peach Oolong Tea Latte,16 oz,Regular,Tea Latte
+22 oz Iced Tea Latte (brewed Peach Oolong),Peach Oolong Tea Latte,22 oz,Large,Tea Latte
+22 oz Jasmine Brewed Lemon Tea,Jasmine Green Lemon Tea,22 oz,Large,Other teas
+22 oz Peach Brewed Lemon Tea,Peach Oolong LemonTea,22 oz,Large,Other teas
+22 oz Ceylon Extracted Lemon Tea,Ceylon Black Lemon Tea,22 oz,Large,Other teas
+22 oz Roasted Black Extracted Lemon Tea,Roasted Black Lemon Tea,22 oz,Large,Other teas
+22 oz Roasted Oolong Extracted Lemon Tea,Roasted Oolong Lemon Tea,22 oz,Large,Other teas
+16 oz Caramel Tea Frappe (extracted Roasted Oolong),unmapped,unmapped,unmapped,unmapped
+22 oz Caramel Tea Frappe (extracted Roasted Oolong),unmapped,unmapped,unmapped,unmapped
