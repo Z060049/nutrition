@@ -1,0 +1,58 @@
+Beverage Type,Calories,Caffeine (mg),Sodium (mg),Protein (g)
+16 oz Jasmine Brewed Hot Tea,0,96,0,0
+16 oz Peach Brewed Hot Tea,0,80,0,0
+16 oz Ceylon Extracted Hot Tea,0,51,0,0
+16 oz Roasted Oolong Extracted Hot Tea,0,34,0,0
+16 oz Roasted Black Extracted Hot Tea,0,46,0,0
+22 oz Jasmine Brewed Hot Tea,0,120,0,0
+22 oz Peach Brewed Hot Tea,0,110,0,0
+22 oz Ceylon Extracted Hot Tea,0,70,0,0
+22 oz Roasted Oolong Extracted Hot Tea,0,46,0,0
+22 oz Roasted Black Extracted Hot Tea,0,64,0,0
+16 oz Jasmine Brewed Iced Tea,0,84,0,0
+16 oz Peach Brewed Iced Tea,0,75,0,0
+16 oz Ceylon Extracted Iced Tea,0,52,0,0
+16 oz Roasted Oolong Extracted Iced Tea,0,33,0,0
+16 oz Roasted Black Extracted Iced Tea,0,43,0,0
+22 oz Jasmine Brewed Iced Tea,0,115,0,0
+22 oz Peach Brewed Iced Tea,0,103,0,0
+22 oz Ceylon Extracted Iced Tea,0,72,0,0
+22 oz Roasted Oolong Extracted Iced Tea,0,46,0,0
+22 oz Roasted Black Extracted Iced Tea,0,59,0,0
+12 oz Hot Tea Latte (extracted Roasted Black),220,108,160,6
+16 oz Hot Tea Latte (extracted Roasted Black),300,143,210,8
+22 oz Hot Tea Latte (extracted Roasted Black),410,197,290,11
+12 oz Hot Tea Latte (extracted Roasted Oolong),220,75,160,6
+16 oz Hot Tea Latte (extracted Roasted Oolong),300,100,210,8
+22 oz Hot Tea Latte (extracted Roasted Oolong),410,138,290,11
+12 oz Hot Tea Latte (extracted Ceylon),220,99,160,6
+16 oz Hot Tea Latte (extracted Ceylon),300,132,210,8
+22 oz Hot Tea Latte (extracted Ceylon),410,181,290,11
+12 oz Hot Tea Latte (Brewed Jasmine),160,108,80,22
+16 oz Hot Tea Latte (Brewed Jasmine),230,148,120,3
+22 oz Hot Tea Latte (Brewed Jasmine),300,199,150,4
+12 oz Hot Tea Latte (Brewed Peach),160,118,75,2
+16 oz Hot Tea Latte (Brewed Peach),230,154,120,3
+22 oz Hot Tea Latte (Brewed Peach),300,208,150,4
+12 oz Iced Tea Latte (extracted Roasted Black),160,102,95,3
+16 oz Iced Tea Latte (extracted Roasted Black),210,136,125,4
+22 oz Iced Tea Latte (extracted Roasted Black),310,187,170,6
+12 oz Iced Tea Latte (extracted Roasted Oolong),160,71,100,3
+16 oz Iced Tea Latte (extracted Roasted Oolong),220,94,130,4
+22 oz Iced Tea Latte (extracted Roasted Oolong),300,129,180,6
+12 oz Iced Tea Latte (extracted Ceylon),160,60,95,3
+16 oz Iced Tea Latte (extracted Ceylon),210,80,125,4
+22 oz Iced Tea Latte (extracted Ceylon),290,110,170,6
+12 oz Iced Tea Latte (brewed Jasmine),130,74,65,2
+16 oz Iced Tea Latte (brewed Jasmine),190,108,100,2
+22 oz Iced Tea Latte (brewed Jasmine),260,139,135,3
+12 oz Iced Tea Latte (brewed Peach Oolong),130,78,65,2
+16 oz Iced Tea Latte (brewed Peach Oolong),180,125,95,2
+22 oz Iced Tea Latte (brewed Peach Oolong),230,155,115,3
+22 oz Jasmine Brewed Lemon Tea,260,129,0,0
+22 oz Peach Brewed Lemon Tea,260,135,0,0
+22 oz Ceylon Extracted Lemon Tea,250,75,0,0
+22 oz Roasted Black Extracted Lemon Tea,260,115,0,0
+22 oz Roasted Oolong Extracted Lemon Tea,250,70,0,0
+16 oz Caramel Tea Frappe (extracted Roasted Oolong),390,91,95,1
+22 oz Caramel Tea Frappe (extracted Roasted Oolong),500,125,120,1

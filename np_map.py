@@ -90,32 +90,34 @@ def find_best_match(beverage_type, mapping_df, min_score=75):
 def create_nutrition_mapping():
     """Create mapping between nutrition data and combinations"""
     # Read the data
-    nutrition_df = pd.read_csv('processed_data/nutrition_raw.csv')
+    nutrition_df = pd.read_csv('nutrition_data/nutrition.csv')
     mapping_df = pd.read_csv('processed_data/nutrition_to_map.csv')
     
     # Create mapping results
     mapped_data = []
     
     for _, row in nutrition_df.iterrows():
-        # Find best match for beverage type
-        match = find_best_match(row['Beverage Type'], mapping_df)
+        # Find best match for identifier
+        match = find_best_match(row['Identifier'], mapping_df)
         
         if match is not None:
             mapped_data.append({
-                'beverage_type': row['Beverage Type'],
+                'identifier': row['Identifier'],
                 'product_name': match['Product Name'],
                 'ounce': match['Ounce'],
                 'size': match['Size'],
-                'category': match['Category']
+                'category': match['Category'],
+                'temperature_l1': match['Temperature L1']
             })
         else:
-            print(f"No good match found for: {row['Beverage Type']}")
+            print(f"No good match found for: {row['Identifier']}")
             mapped_data.append({
-                'beverage_type': row['Beverage Type'],
+                'identifier': row['Identifier'],
                 'product_name': 'unmapped',
                 'ounce': 'unmapped',
                 'size': 'unmapped',
-                'category': 'unmapped'
+                'category': 'unmapped',
+                'temperature_l1': 'unmapped'
             })
     
     # Create output DataFrame

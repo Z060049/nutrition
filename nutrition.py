@@ -39,32 +39,15 @@ def save_dataframe(df, filename, folder='options'):
     print(f"Saved {filename} to {filepath}")
 
 def process_nutrition_data(nutrition_df):
-    """Process nutrition data and save it separately"""
-    if nutrition_df is not None:
-        # Save nutrition data to a separate folder
-        os.makedirs('nutrition_data', exist_ok=True)
-        nutrition_df.to_csv('nutrition_data/nutrition.csv', index=False)
-        print("Saved nutrition data to nutrition_data/nutrition.csv")
-        print(f"Nutrition data shape: {nutrition_df.shape}")
-        print("\nNutrition data columns:")
-        print(nutrition_df.columns.tolist())
-        print("\nFirst few rows of nutrition data:")
-        print(nutrition_df.head())
-        
-        # Process nutrition data to extract specific columns
-        selected_columns = ['Beverage Type', 'Calories', 'Caffeine (mg)', 'Sodium (mg)', 'Protein (g)']
-        processed_df = nutrition_df[selected_columns]
-        
-        # Save processed nutrition data
-        os.makedirs('processed_data', exist_ok=True)
-        processed_df.to_csv('processed_data/nutrition_raw.csv', index=False)
-        print("\nSaved processed nutrition data to processed_data/nutrition_raw.csv")
-        print("Processed nutrition data shape:", processed_df.shape)
-        print("\nFirst few rows of processed nutrition data:")
-        print(processed_df.head())
-        
-        return nutrition_df, processed_df
-    return None, None
+    """Process nutrition data"""
+    # Select and rename columns
+    selected_columns = ['Identifier', 'Calories', 'Caffeine (mg)', 'Sodium (mg)', 'Protein (g)']
+    processed_df = nutrition_df[selected_columns]
+    
+    # Rename Identifier to Beverage Type for consistency
+    processed_df = processed_df.rename(columns={'Identifier': 'Beverage Type'})
+    
+    return nutrition_df, processed_df
 
 def create_nutrition_mapping(product_df, temperature_df, size_df):
     """Create nutrition mapping with product, temperature, size, ounce and category"""
