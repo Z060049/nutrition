@@ -1,3 +1,9 @@
+#how to use this script
+
+1. first run clean up file cleanup.py
+2. then run nutrition.py
+3. then run np_map.py, this will generate a mapping file saved in mapping_final
+
 # Nutrition Data Processing
 
 This project processes and maps nutrition data for various beverages. It includes scripts for cleaning, processing, and mapping nutrition information from raw data to a standardized format.

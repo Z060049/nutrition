@@ -3,6 +3,12 @@ import pandas as pd
 import requests
 from io import BytesIO
 import os
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+import pickle
 
 def load_config():
     """Load configuration from config.json"""
@@ -31,6 +37,72 @@ def load_google_sheet(url):
         print(f"Error loading sheet from {url}: {str(e)}")
         return None
 
+def get_credentials():
+    """Get OAuth 2.0 credentials for Google Sheets API"""
+    creds = None
+    # The file token.pickle stores the user's access and refresh tokens
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+    
+    # If there are no (valid) credentials available, let the user log in
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                'credentials.json', 
+                ['https://www.googleapis.com/auth/spreadsheets']
+            )
+            creds = flow.run_local_server(port=0)
+        
+        # Save the credentials for the next run
+        with open('token.pickle', 'wb') as token:
+            pickle.dump(creds, token)
+    
+    return creds
+
+def clear_and_write_to_sheet(df, url):
+    """Clear the sheet and write new data"""
+    try:
+        # Get credentials
+        creds = get_credentials()
+        
+        # Build the Sheets API service
+        service = build('sheets', 'v4', credentials=creds)
+        
+        # Get sheet ID
+        sheet_id, _ = get_sheet_id_and_gid_from_url(url)
+        
+        # Use the specific sheet name
+        sheet_name = "product_to_map"
+        
+        # Clear the sheet
+        range_name = f"'{sheet_name}'"
+        service.spreadsheets().values().clear(
+            spreadsheetId=sheet_id,
+            range=range_name
+        ).execute()
+        
+        # Prepare the data for writing
+        values = [df.columns.tolist()] + df.values.tolist()
+        body = {
+            'values': values
+        }
+        
+        # Write the new data
+        result = service.spreadsheets().values().update(
+            spreadsheetId=sheet_id,
+            range=range_name,
+            valueInputOption='RAW',
+            body=body
+        ).execute()
+        
+        print(f"Successfully wrote {result.get('updatedCells')} cells to the sheet")
+        
+    except HttpError as error:
+        print(f"An error occurred: {error}")
+
 def save_dataframe(df, filename, folder='options'):
     """Save DataFrame to CSV in the specified folder"""
     os.makedirs(folder, exist_ok=True)
@@ -47,10 +119,15 @@ def process_nutrition_data(nutrition_df):
     # Rename Identifier to Beverage Type for consistency
     processed_df = processed_df.rename(columns={'Identifier': 'Beverage Type'})
     
+    # Save the original nutrition data
+    os.makedirs('nutrition_data', exist_ok=True)
+    nutrition_df.to_csv('nutrition_data/nutrition.csv', index=False)
+    print("Saved nutrition data to nutrition_data/nutrition.csv")
+    
     return nutrition_df, processed_df
 
-def create_nutrition_mapping(product_df, temperature_df, size_df):
-    """Create nutrition mapping with product, temperature, size, ounce and category"""
+def create_product_mapping(product_df, temperature_df, size_df):
+    """Create product mapping with product, temperature, size, ounce and category"""
     # Create all possible combinations
     mapping_data = []
     
@@ -58,12 +135,12 @@ def create_nutrition_mapping(product_df, temperature_df, size_df):
         for _, temp_row in temperature_df.iterrows():
             for _, size_row in size_df.iterrows():
                 mapping_data.append({
-                    'Product Name': product_row['Product Name'],
+                    'Product Name': product_row['Product name'],
                     'Temperature L1': temp_row['Temperature L1'],
                     'Temperature L2': temp_row['Temperature L2'],
                     'Size': size_row['Size Name'],
                     'Ounce': size_row['Ounce'],
-                    'Category': product_row['Category']
+                    'Category': 'Tea Latte' if 'Latte' in product_row['Product name'] else 'Tea'
                 })
     
     # Create DataFrame from the combinations
@@ -71,9 +148,9 @@ def create_nutrition_mapping(product_df, temperature_df, size_df):
     
     # Save to processed_data folder
     os.makedirs('processed_data', exist_ok=True)
-    mapping_df.to_csv('processed_data/nutrition_to_map.csv', index=False)
-    print("\nCreated nutrition mapping with shape:", mapping_df.shape)
-    print("First few rows of nutrition mapping:")
+    mapping_df.to_csv('processed_data/product_to_map.csv', index=False)
+    print("\nCreated product mapping with shape:", mapping_df.shape)
+    print("First few rows of product mapping:")
     print(mapping_df.head())
     return mapping_df
 
@@ -105,9 +182,13 @@ def main():
                     print("\nTemperature columns:")
                     print(df.columns.tolist())
     
-    # Create nutrition mapping
-    print("\nCreating nutrition mapping...")
-    create_nutrition_mapping(dfs['producturl'], dfs['temperatureurl'], dfs['sizeurl'])
+    # Create product mapping
+    print("\nCreating product mapping...")
+    mapping_df = create_product_mapping(dfs['producturl'], dfs['temperatureurl'], dfs['sizeurl'])
+    
+    # Write to Google Sheet
+    print("\nWriting to product_to_map sheet...")
+    clear_and_write_to_sheet(mapping_df, config['product_to_map'])
     
     return dfs
 

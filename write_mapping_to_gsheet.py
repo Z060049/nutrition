@@ -87,37 +87,45 @@ def write_to_google_sheet(url, df):
     # Convert DataFrame to values
     values = [df.columns.tolist()] + df.values.tolist()
     
-    # Calculate the range based on data size
-    num_rows = len(values)
-    num_cols = len(values[0])
-    end_col = chr(ord('A') + num_cols - 1)  # Convert column number to letter
-    range_name = f'mapped_final!A1:{end_col}{num_rows}'
-    
-    # Clear the sheet first
     try:
-        service.spreadsheets().values().clear(
-            spreadsheetId=sheet_id,
-            range=range_name
-        ).execute()
-    except Exception as e:
-        print(f"Warning: Could not clear sheet: {str(e)}")
-    
-    # Write the new data
-    body = {
-        'values': values
-    }
-    
-    try:
+        # First, try to get the spreadsheet to check if we have access
+        spreadsheet = service.spreadsheets().get(spreadsheetId=sheet_id).execute()
+        print(f"Successfully accessed spreadsheet: {spreadsheet['properties']['title']}")
+        
+        # Get all sheets in the spreadsheet
+        sheets = spreadsheet.get('sheets', [])
+        target_sheet = None
+        
+        # Find the sheet with matching gid
+        for sheet in sheets:
+            if sheet.get('properties', {}).get('sheetId') == int(gid):
+                target_sheet = sheet.get('properties', {}).get('title')
+                break
+        
+        if not target_sheet:
+            print(f"Could not find sheet with gid {gid}, using default sheet")
+            target_sheet = spreadsheet['sheets'][0]['properties']['title']
+        
+        print(f"Writing to sheet: {target_sheet}")
+        
+        # Write the new data
+        body = {
+            'values': values
+        }
+        
+        # Use the correct sheet name in the range
+        range_name = f"'{target_sheet}'!A1"
+        
         result = service.spreadsheets().values().update(
             spreadsheetId=sheet_id,
             range=range_name,
             valueInputOption='RAW',
             body=body
         ).execute()
-        print("Successfully wrote data to Google Sheet")
+        print(f"Updated {result.get('updatedCells')} cells")
         return True
     except Exception as e:
-        print(f"Error writing to sheet: {str(e)}")
+        print(f"Error accessing or writing to sheet: {str(e)}")
         return False
 
 def main():
