@@ -120,12 +120,12 @@ def map_product_to_nutrition(product_to_map_df, product_nutrition_map_df, aaron_
     
     # Add new columns to product_to_map
     def map_row(row):
-        # Generate identifier
-        identifier = f"{row['Ounce']} {row['Temperature L1']} {row['product_name_in_nutrition']}"
-        
-        # Map product name in nutrition
+        # Map product name in nutrition first
         nutrition_key = (row['Product Name'], row['Temperature L1'])
         row['product_name_in_nutrition'] = nutrition_map.get(nutrition_key, 'unmapped')
+        
+        # Generate identifier
+        identifier = f"{row['Ounce']} {row['Temperature L1']} {row['product_name_in_nutrition']}"
         
         # Fuzzy match with aaron_nutrition_raw
         best_match = None

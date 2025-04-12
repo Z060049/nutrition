@@ -1,8 +1,9 @@
 #how to use this script
 
 1. first run clean up file cleanup.py
-2. then run nutrition.py
-3. then run np_map.py, this will generate a mapping file saved in mapping_final
+2. then run generate_product_mix.py, this will write to the spread sheet product_to_map
+3. then run np_map.py, this will generate a mapping saved in product_to_map with column G and H
+4. 
 
 # Nutrition Data Processing
 
